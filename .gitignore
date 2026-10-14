@@ -1,0 +1,33 @@
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Java
+target/
+*.class
+*.jar
+.mvn/wrapper/maven-wrapper.jar
+
+# Angular
+node_modules/
+dist/
+.angular/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# System
+.DS_Store
+Thumbs.db
